@@ -1,0 +1,41 @@
+nav
+  position: fixed
+  background-color: bgcolor
+  top: 0
+  left: 0
+  right: 0
+  width: 100%
+  height: 80px
+  z-index: 1000
+
+.navbar
+  display: flex
+  justify-content: space-between
+  align-items: center
+  margin: 0
+  height: 100%
+
+  .logo
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+    img
+      float: left
+      margin: 0
+      padding-right: 10px
+
+  ul
+    display: flex
+    flex-grow: 1
+    align-items: baseline
+    justify-content: space-evenly
+    margin: 0
+    list-style-type: none
+
+    li
+      margin: 0
+
+      a
+        .current
+          color: red

@@ -1,0 +1,12 @@
+baseFontSize: 18px
+baseLineHeight: 1.666
+googleFonts:
+  - name: Open Sans
+    styles:
+      - '400'
+      - '700'
+headerColor: red
+headerFontFamily:
+  - Open Sans
+bodyFontFamily:
+  - Open Sans

@@ -1,0 +1,16 @@
+extends base.pug
+
+block content
+  .grid
+    - for (blog of site.blogs)
+      .grid-item
+        a(href='/blog/' + blog.filename)
+          img(src='/blog/' + blog.hero)
+          span= new Date(blog.date).toLocaleString('en-US', {month: 'long', day: 'numeric'})
+        h6: a(href='/blog/' + blog.filename)= blog.title
+        p!= blog.excerpt
+
+block scripts
+  script(src='https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js')
+  script(src='https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js')
+  script(src='index.js')

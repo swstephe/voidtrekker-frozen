@@ -1,0 +1,20 @@
+{
+  "name": "voidtrekker-frozen",
+  "version": "1.0.0",
+  "description": "Attempt at writing my own static site generator with Flask Frozen",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "coffeescript": "^2.5.1",
+    "pug": "^3.0.2",
+    "stylus": "^0.54.8",
+    "typography": "^0.16.19"
+  }
+}
